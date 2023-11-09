@@ -19,16 +19,16 @@ export const encryptMessagePromise = (message, key) => {
 }
 
 
-const message = {
-    name: 'Azim',
-    password: 'password',
-}
+// const message = {
+//     name: 'Azim',
+//     password: 'password',
+// }
 
-const secretKey = 'secretkey12345'
+// const secretKey = 'secretkey12345'
 
-encryptMessage(JSON.stringify(message), secretKey, (encryptedMessage) => {
-    console.log(encryptedMessage)
-})
+// encryptMessage(JSON.stringify(message), secretKey, (encryptedMessage) => {
+//     console.log(encryptedMessage)
+// })
 
-encryptMessagePromise(JSON.stringify(message), secretKey)
-    .then((encryptedMessage) => console.log(encryptedMessage))
+// encryptMessagePromise(JSON.stringify(message), secretKey)
+//     .then((encryptedMessage) => console.log(encryptedMessage))
