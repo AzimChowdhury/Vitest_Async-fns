@@ -1,0 +1,13 @@
+{"type": "module",
+  "name": "Async_Fns",
+  "version": "1.0.0",
+  "main": "Async_Fns",
+  "license": "MIT",
+  "scripts": {
+    "test": "vitest --reporter verbose"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "vitest": "^0.34.6"
+  }
+}
